@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Gym Helper</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💪 Gym Helper</h1>
+        </header>
+
+        <nav class="day-selector" id="daySelector"></nav>
+
+        <main class="exercise-grid" id="exerciseGrid"></main>
+    </div>
+
+    <div class="gif-overlay" id="gifOverlay">
+        <button class="close-btn" id="closeBtn">✕</button>
+        <img id="gifImage" src="" alt="Exercise demonstration">
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
