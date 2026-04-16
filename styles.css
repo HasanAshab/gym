@@ -217,6 +217,13 @@ header h1 {
     object-fit: contain;
 }
 
+.gif-overlay video {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    display: none;
+}
+
 .close-btn {
     position: absolute;
     top: 20px;
