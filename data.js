@@ -94,7 +94,7 @@ const EXERCISES = [
     days: [4]
 },
 {
-    name: " Dumbell hammer curls",
+    name: "Dumbell hammer curls",
     sets: 3,
     thumbnail: "assets/images/dumbell-hammer-curls.png",
     video: "assets/videos/dumbell-hammer-curls.mp4",
